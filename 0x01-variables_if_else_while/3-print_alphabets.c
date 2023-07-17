@@ -11,15 +11,11 @@ C = 'a';
 d = 'A';
 while
 (C <= 'z')
-{
 putchar(C);
 C++;
-}
 while (d <= 'z')
-{
 putchar (d);
 d++;
-}
 putchar('\n');
 return (0);
 }
