@@ -5,17 +5,18 @@
 */
 int main(void)
 {
-char C;
-char d;
-C = 'a';
-d = 'A';
-while
-(C <= 'z')
-putchar(C);
-C++;
-while (d <= 'z')
-putchar (d);
-d++;
-putchar('\n');
+int n = 97;
+int n = 65;
+while (n <= 122)
+{
+putchar(n);
+n++;
+}
+while (m  <= 90)
+{
+putchar(m);
+m++;
+}
+putchar('\n);
 return (0);
 }
